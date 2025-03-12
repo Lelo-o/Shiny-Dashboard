@@ -4,8 +4,8 @@ library(ggplot2)
 library(forcats)
 library(stringr)
 
-# Load your cleaned data (replace with your actual path)
-survey_data <- read_csv("C:\\Users\\Mpumelelo Mthimunye\\Downloads\\cleaned_survey_data.csv")
+
+survey_data <- read_csv("C:\\Users\\Mpumelelo Mthimunye\\Downloads\\ITRDA assignment\\cleaned_survey_data.csv")
 
 # Function to split and count tools
 count_tools <- function(data, column_name) {
